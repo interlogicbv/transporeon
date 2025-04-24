@@ -1,0 +1,44 @@
+{
+  "name": "transporeon",
+  "version": "1.0.0",
+  "description": "Transporeon EDI integration for Interlogic",
+  "keywords": [
+    "transporeon",
+    "edi",
+    "interlogic",
+    "integration"
+  ],
+  "homepage": "https://github.com/interlogicbv/transporeon#readme",
+  "bugs": {
+    "url": "https://github.com/interlogicbv/transporeon/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/interlogicbv/transporeon.git"
+  },
+  "license": "MIT",
+  "author": "R. van Rees",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "@types/ssh2-sftp-client": "^9.0.4",
+    "@types/uuid": "^10.0.0",
+    "@types/xml2js": "^0.4.14",
+    "dotenv": "^16.5.0",
+    "ssh2-sftp-client": "^12.0.0",
+    "uuid": "^11.1.0",
+    "xml2js": "^0.6.2",
+    "xmlbuilder2": "^3.1.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.14.1",
+    "nodemon": "^3.1.10",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}
